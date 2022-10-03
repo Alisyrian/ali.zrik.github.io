@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+header{
+
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+
+    text-decoration: none;
+    color: #111f76;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    text-size-adjust: 822;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a{
+
+    text-decoration: none;
+    color: #0638ce;
+    font-weight: 600;
+    padding-left:20px;
+    font-size:  1.2em;
+    
+}
+
+.menu a:hover{
+    color: #601cfc;
+}
+nav a:focus-visible{
+    color: #a49fb0;
+}
+
+
+
+
+.links_rechts{
+
+    width: 100%;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    background-color: #e4c6c6;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    float: left;
+    color: aliceblue;
+    font-size: 90em;
+    font-weight: 500;
+}
+
+.eerst h2{
+
+    color:rgb(21, 112, 191);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.rechts{
+    padding: 10px 50px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    
+}
+
+
+.drukknop{
+
+    color: aliceblue;
+    background: #132281;
+    text-decoration: none;
+    font-size: 1,1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1874em;
+    letter-spacing:1px;
+    border-radius:15px;
+    margin-bottom: 40px;
+    transition: 0.7 ease;
+
+}
+.drukknop:hover{
+    background-color: #0a2d99;
+    transform: scale(1.1);
+}
+.ik{
+    padding: 100px 200px;
+}
+
+.kaarten{
+    background-color: #c4a0a0;
+}
+.kaarten h2{
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: #111f76;
+    font-weight: 900;
+    text-align: center ;
+    justify-content: center;
+  
+    
+}
+.kaarten ul li{
+    padding: 100px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    
+}   
+
+.project_fotos{
+    width: 200px;
+    display: inline-flex;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/me/html.png);
+    object-position: center;
+    justify-content: space-between;
+
+    transition: all;
+}
+
+.kaarten_project{
+    background-color: #c4a0a0;
+}
+.kaarten_project h2{
+    padding-top: 200px;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #111f76;
+    font-weight: 900;
+    text-align: center ;
+    justify-content: center;
+  
+    
+}
+.kaarten_project ul li{
+    padding: 100px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    
+}  
+
+
+.work {
+    text-align: center;
+    padding-top: 100px;
+   
+}
+.work h2{
+    color: rgb(9, 69, 153);
+    padding-top: 10px;
+}
+.tekst{
+    padding-bottom: 40px;
+}
+
+.contact{
+    color: aliceblue;
+    background: #0638ce;
+    text-decoration: none;
+    font-size: 1,1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1874em;
+    letter-spacing:1px;
+    border-radius:15px;
+    margin-bottom: 40px;
+    transition: 0.7 ease;
+    
+    
+}
+
+footer{
+
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.tweede{
+    
+    width: 100%;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    background-color: #e4c6c6;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+.project_section h2{
+    clear: left;
+    width: 100%;
+    text-align: center;
+    padding: 80px 80px;
+    display: block;
+}
+
+.img_section{
+
+padding-top: 300px;
+}
+
+#blog{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0,0,0.05);
+
+}
+
+.mijn_cv{
+
+    padding: 200px 30px;
+    text-align: left;
+    background-color: #c4a0a0;
+}
+.page_contact{
+    background-color: #c4a0a0;
+}
+
+.container h1{
+    font-family:'playfire Display';
+    font-size: 6em;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.container p{
+    color: azure;
+}
+.container p.input.textarea.label{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+.container form{
+
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0px;
+}
+.container label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #132281;
+    font-weight: 800;
+}
+.container input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    
+
+}
+.container input[type=submit]{
+    background-color: antiquewhite;
+    padding: 15px 0;
+    color: rgb(29, 29, 29);
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3;
+}
+.container .message{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid gray;
+    resize: none;
+    width: 100%;
+}
+.container .send:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
+.container input{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.container textarea:focus{
+    outline: 1px solid bisque;
+}
